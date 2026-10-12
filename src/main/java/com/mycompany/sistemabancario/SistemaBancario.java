@@ -3,14 +3,17 @@
  */
 
 package com.mycompany.sistemabancario;
-
+import vista.VistaBanco;
 /**
  *
  * @author orian
  */
 public class SistemaBancario {
 
-    public static void main(String[] args) {
-        System.out.println("Hello World!");
+    public static void main(String[] args){
+
+        VistaBanco ventana = new VistaBanco();
+        ventana.setVisible(true);
     }
+    
 }
